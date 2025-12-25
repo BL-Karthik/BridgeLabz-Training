@@ -1,0 +1,18 @@
+/.metadata/
+# Eclipse specific files
+.settings/
+.classpath
+.project
+
+# Output folder
+bin/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Others you don’t want to track
+*.log
+
+
+
