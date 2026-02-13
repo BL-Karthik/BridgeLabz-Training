@@ -26,6 +26,7 @@ public class AddressBookController {
     // get address by id
     @GetMapping("/{id}")
     public ResponseEntity<AddressBook> getById(@PathVariable int id) {
+        System.out.print("hi");
         return ResponseEntity.ok(service.getById(id));
     }
 
